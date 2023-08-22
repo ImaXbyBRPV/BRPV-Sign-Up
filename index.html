@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRPV | Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <b><p class="Registration">Registration</p></b>
+        <div class="line"></div>
+        <b><p class="txt1">Full Name</p></b>
+        <input id="username1" placeholder="Enter your name"><br>
+        <b><p class="txt2">Email</p></b>
+        <input id="username2" placeholder="Enter your Email"><br>
+        <b><p class="txt3">Password</p></b>
+        <input id="username3" placeholder="Enter your password"><br>
+        <input id="confirm2" placeholder="Confirm Password">
+        <input id="confirm3" placeholder="Nickname"><br>
+        <input id="confirm4" placeholder="Gender"><br>
+        <button id="register">Sign Up</button>
+    </div>
+
+    <script>
+        const userDataInformation = {
+            username: '',
+            password: '',
+        };
+
+        document.getElementById("register").onclick = function SaveAccountData() {
+            alert("Successfully Created account, going back in main page.")
+            var userName = document.getElementById("username1").value;
+            var passWord = document.getElementById("username3").value;
+
+            userDataInformation.username = userName;
+            userDataInformation.password = passWord;
+
+            localStorage.setItem("username", JSON.stringify(userName));
+            localStorage.setItem("password", JSON.stringify(passWord));
+            window.location.href="https://imaxbybrpv.github.io/BRPV-I-Main-Page/"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+body {
+    background: linear-gradient(to right, #2a9dd3, #a97ddb);
+    font-family: "Poppins";
+}
+
+.container {
+    width: 690px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 560px;
+    margin-top: 210px;
+}
+
+.Registration {
+    color: black;
+    font-size: 25px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.line {
+    width: 45px;
+    background-color: rgb(110, 110, 226);
+    height: 4px;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 31px;
+}
+
+.txt1 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 31px;
+}
+
+#username1 {
+    height: 35px;
+    width: 250px;
+    margin-top: 110px;
+    margin-left: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(107, 107, 107);
+}
+#username1::shadow {
+    background-color: black;
+}
+
+.txt2 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 31px;
+}
+
+.txt3 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 31px;
+}
+
+#username2 {
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(107, 107, 107);
+}
+
+#username3 {
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(107, 107, 107);
+}
+
+#confirm {
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(107, 107, 107);
+    position: absolute;
+    top: 1px;
+    margin-left: 400px;
+    margin-top: 317px;
+}
+
+#confirm2 {
+    height: 35px;
+    width: 250px;
+    margin-top: 550px;
+    margin-left: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(107, 107, 107);
+    position: absolute;
+    top: 1px;
+    margin-left: 400px;
+    margin-top: 317px;
+}
+
+#confirm3 {
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(107, 107, 107);
+    margin-left: 400px;
+    position: absolute;
+    top: 1px;
+    margin-top: 407px;
+}
+
+#confirm4 {
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 2px;
+    border: 1px solid rgb(107, 107, 107);
+    margin-left: 400px;
+    position: absolute;
+    top: 1px;
+    margin-top: 498px;
+}
+
+#register {
+    background-color: rgb(53, 129, 180);
+    color: white;
+    border: none;
+    width: 305px;
+    height: 70px;
+    border-radius: 35px;
+    margin-left: 200px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+#register:hover {
+    background-color: rgb(151, 81, 151);
+}
